@@ -1,7 +1,6 @@
 import style from './Body.module.scss'
 import {Card} from "../Card/Card";
 
-
 export const Body = () => {
   const titles = [{
     header: 'мы',

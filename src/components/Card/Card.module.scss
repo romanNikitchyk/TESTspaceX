@@ -1,4 +1,5 @@
 @import "src/variablesStyle";
+
 .card {
   text-align: center;
   color: white;
@@ -11,16 +12,18 @@
 }
 
 .span {
-display: block;
+  display: block;
   margin-top: 7px;
   font-size: 19px;
   font-family: $bodyCardFonts;
 }
+
 .spanBold {
   font-weight: bold;
   font-family: $bodyCardFonts;
   font-size: 50px;
 }
+
 .card:hover {
   box-shadow: -100px -97px 100px 100px rgba(255, 255, 255, 0.2) inset;
   transition: 0.7s;
