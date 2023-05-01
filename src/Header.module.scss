@@ -1,4 +1,4 @@
-@import './src/variablesStyle';
+@import 'variablesStyle';
 
 .header {
   height: 80px;
@@ -46,7 +46,7 @@
 
 .burgerMenuIcon {
   position: absolute;
-  background-image: url('src/assets/burger.png');
+  background-image: url('assets/burger.png');
   background-repeat: no-repeat;
   height: 2em;
   width: 2em;

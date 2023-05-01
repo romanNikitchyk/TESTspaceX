@@ -1,4 +1,4 @@
-import style from "./Header.module.scss"
+import style from "../../Header.module.scss"
 import {Button} from "../Button/Button";
 import logoIcon from '../../assets/logo.png'
 import {useState} from "react";
