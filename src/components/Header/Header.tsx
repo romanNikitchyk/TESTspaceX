@@ -19,7 +19,6 @@ export const Header = () => {
             <div className={style.burgerMenuIcon} onClick={()=>setMenuTougle(!menuTougle)}/>
             {links.map((l, i) => <Button key={i} title={l}/>)}
           </div>
-
           {menuTougle && <BurgerMenu links={links}/>}
         </div>
         </div>
