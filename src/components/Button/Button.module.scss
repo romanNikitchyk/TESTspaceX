@@ -1,0 +1,32 @@
+@import './src/variablesStyle';
+
+.btn {
+  cursor: pointer;
+  display: flex;
+  color: #ffffff;
+  font-family: $headerFonts;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  background-size: 0 0.1px;
+  transition: background-size .3s;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 10px 0 0 25px;
+}
+
+
+.btn:hover {
+  background-size: 100% 2px;
+}
+
+@media screen and (max-width: 855px) {
+
+  .btn {
+    display: none;
+  }
+}
